@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TaskPix</string>
+    <string name="para_primar">
+Easy Time Management
+</string>
+    <string name="para">
+With management based on priority and daily tasks, it will give you convenience in managing and determining the tasks that must be done first
+</string>
+    <string name="Skip_btn">Skip</string>
+    <string name="GetStart_btn">Get Start</string>
+    <string name="onboard2text1">Increase Work Effectiveness</string>
+    <string name="onboard2para">Time management and the determination of more important tasks will give your job statistics better and always improve</string>
+    <string name="onboard3text">User Friendly Interface</string>
+    <string name="onboard3para">Seamless onboarding, enhanced by a user-friendly interface. Set tasks effortlessly, receive reminders, and stay on top of your assignments effortlessly.</string>
+    <string name="logintext">TaskPix</string>
+    <string name="logintext2">Management  App</string>
+    <string name="logintext3">Login to your account</string>
+    <string name="loginfogtpw">Forgot password?</string>
+    <string name="logintext5">"Don’t have an account?"</string>
+    <string name="loginSinguptext">"Sign Up "</string>
+</resources>
