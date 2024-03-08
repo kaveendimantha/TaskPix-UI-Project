@@ -21,4 +21,9 @@ With management based on priority and daily tasks, it will give you convenience 
     <string name="singuptext1">Create your account</string>
     <string name="logintxt">Login</string>
     <string name="txtlog">Do you have an account?</string>
+    <string name="hometext1">Saturday, Feb 20 2024</string>
+    <string name="hometxt2">Welcome Kaveen</string>
+    <string name="hometxt3">Have a nice day !</string>
+    <string name="hometxt4">My Priority Task</string>
+    <string name="hometxt5">Daily Task</string>
 </resources>

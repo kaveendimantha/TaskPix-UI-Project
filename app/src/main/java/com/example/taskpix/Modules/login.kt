@@ -18,5 +18,11 @@ class login : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val logbtnNavigate: Button = findViewById(R.id.btnlogin)
+        logbtnNavigate.setOnClickListener {
+            val intent = Intent(this, homepage::class.java)
+            startActivity(intent)
+
+        }
     }
 }

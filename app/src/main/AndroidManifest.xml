@@ -13,6 +13,9 @@
         android:theme="@style/Theme.TaskPix"
         tools:targetApi="31">
         <activity
+            android:name=".Modules.homepage"
+            android:exported="false" />
+        <activity
             android:name=".Modules.signup"
             android:exported="false" />
         <activity
