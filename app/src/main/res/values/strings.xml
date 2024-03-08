@@ -18,4 +18,7 @@ With management based on priority and daily tasks, it will give you convenience 
     <string name="loginfogtpw">Forgot password?</string>
     <string name="logintext5">"Don’t have an account?"</string>
     <string name="loginSinguptext">"Sign Up "</string>
+    <string name="singuptext1">Create your account</string>
+    <string name="logintxt">Login</string>
+    <string name="txtlog">Do you have an account?</string>
 </resources>
