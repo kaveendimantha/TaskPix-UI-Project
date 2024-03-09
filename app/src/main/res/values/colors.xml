@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="black1">#FF000000</color>
+    <color name="white2">#FFFFFFFF</color>
     <color name="lightblack">#4A4646</color>
     <color name="Blue1">#006EE9</color>
     <color name="ash">#9A9A9A</color>
     <color name="lightblue">#87ADF4</color>
     <color name="txtash">#474747</color>
+    <color name="white1">#00FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="checked_text_color">#006EE9</color>
+    <color name="unchecked_text_color">#4A4646</color>
 
 </resources>

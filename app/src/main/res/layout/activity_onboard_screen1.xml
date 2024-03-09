@@ -70,6 +70,7 @@
         app:layout_constraintVertical_bias="0.956" />
 
     <TextView
+        android:id="@+id/skpNavigate1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Skip"
