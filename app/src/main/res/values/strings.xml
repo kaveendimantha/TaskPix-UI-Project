@@ -25,5 +25,5 @@ With management based on priority and daily tasks, it will give you convenience 
     <string name="hometxt2">Welcome Kaveen</string>
     <string name="hometxt3">Have a nice day !</string>
     <string name="hometxt4">My Priority Task</string>
-    <string name="hometxt5">Daily Task</string>
+    <string name="lbl_design_revision">Design revision</string>
 </resources>

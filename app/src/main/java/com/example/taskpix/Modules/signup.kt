@@ -21,8 +21,7 @@ class signup : AppCompatActivity() {
 
         val backnavigate: ImageView = findViewById(R.id.backbtn)
         backnavigate.setOnClickListener {
-            val intent = Intent(this, login::class.java)
-            startActivity(intent)
+            finish()
         }
 
         val regbtnNavigate: Button = findViewById(R.id.regbtn)

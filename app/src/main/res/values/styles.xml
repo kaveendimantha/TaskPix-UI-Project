@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="hometxt5">Daily Task</string>
+    <style name="groupStylewhite_A700cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_border_blue_700_0f_radius_10</item>
+    </style>
+
+    <style name="txtPoppinsmedium14_1">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#4a4646</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="groupStylecornerRadius">
+        <item name="android:background">@drawable/rectangle_border_blue_700_radius_11</item>
+    </style>
+</resources>
