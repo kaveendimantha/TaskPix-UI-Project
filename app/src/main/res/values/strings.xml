@@ -26,4 +26,9 @@ With management based on priority and daily tasks, it will give you convenience 
     <string name="hometxt3">Have a nice day !</string>
     <string name="hometxt4">My Priority Task</string>
     <string name="lbl_design_revision">Design revision</string>
+    <string name="prioritytxt1">User Experience (UX) is the essence of digital interaction, covering everything from screens and touchpoints to sounds and lights. Its evolution, from graphical interfaces to a multidisciplinary field, shapes modern best practices and defines a dedicated profession.</string>
+    <string name="prioritytxt2">Description</string>
+    <string name="prioritytxt3">To do List</string>
+    <string name="dailytask1">Description</string>
+    <string name="dailytask2">Fuel your day with morning exercise—running, swimming, jogging, badminton, futsal—for a healthier, stronger you. Elevate your well-being and embrace an active lifestyle.</string>
 </resources>
