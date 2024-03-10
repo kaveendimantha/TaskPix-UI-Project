@@ -1,7 +1,9 @@
 package com.example.taskpix.Modules
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.CheckBox
+import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -10,12 +12,20 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.taskpix.R
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class homepage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_homepage)
+
+        val skpNavigate: ImageView = findViewById(R.id.protskbtn)
+        skpNavigate.setOnClickListener {
+            val intent = Intent(this, priortyTask::class.java)
+            startActivity(intent)
+
+        }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
@@ -26,6 +36,26 @@ class homepage : AppCompatActivity() {
         val textView = findViewById<TextView>(R.id.textView)
         val checkBox = findViewById<CheckBox>(R.id.checkBox)
         val linearLayout : LinearLayout = findViewById(R.id.linearLayout)
+
+        val bottom_navigation : BottomNavigationView = findViewById(R.id.bottom_navigation)
+
+        bottom_navigation.setOnNavigationItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.page_1 -> {
+                    true
+                }
+                R.id.page_2 -> {
+                    val intent = Intent(this, onboardScreen1::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.page_3 -> {
+                    val intent = Intent(this, onboardScreen2::class.java)
+                    startActivity(intent)
+                    true
+                }
+                else -> false
+            } }
 
         checkBox.setOnCheckedChangeListener { buttonView, isChecked ->
             if (isChecked) {

@@ -5,7 +5,13 @@
       <entry key="app">
         <State />
       </entry>
-      <entry key="homepage">
+      <entry key="dailyTask">
+        <State />
+      </entry>
+      <entry key="enditpriortytask">
+        <State />
+      </entry>
+      <entry key="priortyTask">
         <State />
       </entry>
     </value>

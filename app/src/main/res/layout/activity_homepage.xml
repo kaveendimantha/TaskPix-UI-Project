@@ -103,6 +103,7 @@
             android:orientation="horizontal">
 
             <ImageView
+                android:id="@+id/protskbtn"
                 android:layout_width="148dp"
                 android:layout_height="198dp"
                 android:adjustViewBounds="false"
@@ -277,10 +278,25 @@
     </LinearLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="409dp"
-        android:layout_height="50dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="680dp" />
+        android:id="@+id/bottom_navigation"
+        style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/material_dynamic_neutral99"
+        app:itemHorizontalTranslationEnabled="false"
+        app:itemIconSize="24dp"
+        app:itemIconTint="@color/bottom_navigation_icon_color"
+        app:itemPaddingBottom="8dp"
+        app:itemPaddingTop="8dp"
+        app:itemRippleColor="@color/ash"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/bottom_navigation_menu" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
