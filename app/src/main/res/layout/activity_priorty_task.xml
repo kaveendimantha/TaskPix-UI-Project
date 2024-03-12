@@ -58,20 +58,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.229" />
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="383dp"
-        android:layout_height="49dp"
-        android:src="@drawable/prosecelod"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.585" />
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView9"-->
+<!--        android:layout_width="383dp"-->
+<!--        android:layout_height="49dp"-->
+<!--        android:src="@drawable/prosecelod"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.214"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.551" />-->
 
     <LinearLayout
-        android:id="@+id/linearLayout8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -88,11 +87,49 @@
             android:src="@drawable/design" />
 
         <ImageView
+
             android:id="@+id/bachome"
             android:layout_width="38dp"
             android:layout_height="38dp"
             android:layout_marginLeft="100dp"
             android:src="@drawable/closebtn" />
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.554">
+
+        <TextView
+
+            android:layout_width="397dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/pogress_txt"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <ProgressBar
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="383dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:accessibilityHeading="false"
+            android:indeterminateBehavior="cycle"
+            android:progress="80"
+            android:progressBackgroundTint="@color/ash"
+            android:progressTint="@color/Blue1" />
+
+
     </LinearLayout>
 
     <LinearLayout
@@ -167,7 +204,7 @@
             android:orientation="vertical">
 
             <LinearLayout
-                android:id="@+id/linearLayout"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
@@ -185,7 +222,7 @@
                 app:layout_constraintVertical_bias="0.714">
 
                 <TextView
-                    android:id="@+id/textView"
+
                     android:layout_width="307dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
@@ -194,7 +231,7 @@
                     android:textColor="#4A4646" />
 
                 <CheckBox
-                    android:id="@+id/checkBox"
+
                     android:layout_width="22dp"
                     android:layout_height="22dp"
                     android:background="@drawable/custom_checkbox_selector"
@@ -202,7 +239,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/linearLayout"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
@@ -220,7 +257,7 @@
                 app:layout_constraintVertical_bias="0.788">
 
                 <TextView
-                    android:id="@+id/textView"
+
                     android:layout_width="307dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
@@ -229,7 +266,7 @@
                     android:textColor="#4A4646" />
 
                 <CheckBox
-                    android:id="@+id/checkBox"
+
                     android:layout_width="22dp"
                     android:layout_height="22dp"
                     android:background="@drawable/custom_checkbox_selector"
@@ -237,7 +274,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/linearLayout"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
@@ -255,7 +292,7 @@
                 app:layout_constraintVertical_bias="0.867">
 
                 <TextView
-                    android:id="@+id/textView"
+
                     android:layout_width="307dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
@@ -264,7 +301,7 @@
                     android:textColor="#4A4646" />
 
                 <CheckBox
-                    android:id="@+id/checkBox"
+
                     android:layout_width="22dp"
                     android:layout_height="22dp"
                     android:background="@drawable/custom_checkbox_selector"
@@ -317,6 +354,8 @@
                     android:id="@+id/edtaskbtn"
                     android:layout_width="345dp"
                     android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="20dp"
                     android:backgroundTint="@color/Blue1"

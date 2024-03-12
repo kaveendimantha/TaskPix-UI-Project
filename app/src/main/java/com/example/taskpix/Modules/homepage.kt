@@ -20,7 +20,7 @@ class homepage : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_homepage)
 
-        val skpNavigate: ImageView = findViewById(R.id.protskbtn)
+        val skpNavigate: LinearLayout = findViewById(R.id.protskbtn)
         skpNavigate.setOnClickListener {
             val intent = Intent(this, priortyTask::class.java)
             startActivity(intent)

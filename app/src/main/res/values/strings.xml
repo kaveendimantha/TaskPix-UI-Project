@@ -47,4 +47,9 @@ With management based on priority and daily tasks, it will give you convenience 
     <string name="rexttd6">Make desing</string>
     <string name="rexttd7">Revition desing</string>
     <string name="rexttd8">Fix desing</string>
+    <string name="UI">UI Design</string>
+    <string name="pogress_txt">Progress</string>
+    <string name="Programming">Programming</string>
+    <string name="EditaPicture">Edit a \nPicture</string>
+    <string name="WritingBook">"Writing \nBook   "</string>
 </resources>

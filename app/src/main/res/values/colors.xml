@@ -13,5 +13,6 @@
     <color name="checked_text_color">#006EE9</color>
     <color name="unchecked_text_color">#4A4646</color>
     <color name="bacground">#FFFEF7FF</color>
+    <color name="bar_bg">#004797</color>
 
 </resources>
