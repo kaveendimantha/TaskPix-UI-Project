@@ -56,6 +56,12 @@
             android:name=".Modules.priortyTask"
             android:exported="false" />
         <activity
+            android:name=".Modules.dailyTask"
+            android:exported="false" />
+        <activity
+            android:name=".Modules.priortyTask"
+            android:exported="false" />
+        <activity
             android:name=".Modules.homepage"
             android:exported="false" />
         <activity
