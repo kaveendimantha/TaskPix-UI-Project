@@ -8,13 +8,13 @@
       <entry key="app">
         <State />
       </entry>
-      <entry key="dailyTask">
-        <State />
-      </entry>
       <entry key="enditpriortytask">
         <State />
       </entry>
       <entry key="homepage">
+        <State />
+      </entry>
+      <entry key="location">
         <State />
       </entry>
       <entry key="priortyTask">

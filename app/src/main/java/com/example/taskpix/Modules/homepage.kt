@@ -27,11 +27,6 @@ class homepage : AppCompatActivity() {
 
         }
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
 
         val textView = findViewById<TextView>(R.id.textView)
         val checkBox = findViewById<CheckBox>(R.id.checkBox)
@@ -45,12 +40,12 @@ class homepage : AppCompatActivity() {
                     true
                 }
                 R.id.page_2 -> {
-                    val intent = Intent(this, onboardScreen1::class.java)
+                    val intent = Intent(this, calanderPriorty::class.java)
                     startActivity(intent)
                     true
                 }
                 R.id.page_3 -> {
-                    val intent = Intent(this, onboardScreen2::class.java)
+                    val intent = Intent(this, profile::class.java)
                     startActivity(intent)
                     true
                 }

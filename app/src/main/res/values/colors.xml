@@ -14,5 +14,7 @@
     <color name="unchecked_text_color">#4A4646</color>
     <color name="bacground">#FFFEF7FF</color>
     <color name="bar_bg">#004797</color>
+    <color name="buttonbg">#FCFAFA</color>
+    <color name="datecolors">#0668E5</color>
 
 </resources>

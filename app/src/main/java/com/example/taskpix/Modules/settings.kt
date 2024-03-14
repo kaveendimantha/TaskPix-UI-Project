@@ -11,31 +11,24 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.taskpix.R
 
-class addTask : AppCompatActivity() {
+class settings : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_add_task)
+        setContentView(R.layout.activity_settings)
 
-        val Navigate22: Button = findViewById(R.id.Dtskbtn)
-        Navigate22.setOnClickListener {
-            val intent = Intent(this, addDailyTask::class.java)
-            startActivity(intent)
-
-        }
-        val navigate: ImageView = findViewById(R.id.back11)
-        navigate.setOnClickListener {
+        val backnavigate: ImageView = findViewById(R.id.backse)
+        backnavigate.setOnClickListener {
             finish()
 
         }
-        val Navigate2: Button = findViewById(R.id.addtsk3)
-        Navigate2.setOnClickListener {
-            val intent = Intent(this, calanderPriorty::class.java)
+
+        val Navigate: LinearLayout = findViewById(R.id.updtpw)
+        Navigate.setOnClickListener {
+            val intent = Intent(this, updatepassword::class.java)
             startActivity(intent)
 
         }
-
-
 
     }
 }

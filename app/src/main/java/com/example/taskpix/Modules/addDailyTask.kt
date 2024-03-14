@@ -7,35 +7,32 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.taskpix.R
 
-class addTask : AppCompatActivity() {
+class addDailyTask : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_add_task)
+        setContentView(R.layout.activity_add_daily_task)
 
-        val Navigate22: Button = findViewById(R.id.Dtskbtn)
-        Navigate22.setOnClickListener {
-            val intent = Intent(this, addDailyTask::class.java)
+        val Navigate: Button = findViewById(R.id.navi3)
+        Navigate.setOnClickListener {
+            val intent = Intent(this, addTask::class.java)
             startActivity(intent)
 
         }
-        val navigate: ImageView = findViewById(R.id.back11)
-        navigate.setOnClickListener {
+
+        val backnavigate: ImageView = findViewById(R.id.back12)
+        backnavigate.setOnClickListener {
             finish()
 
         }
-        val Navigate2: Button = findViewById(R.id.addtsk3)
+
+        val Navigate2: Button = findViewById(R.id.navi4)
         Navigate2.setOnClickListener {
-            val intent = Intent(this, calanderPriorty::class.java)
+            val intent = Intent(this, calenderDaily::class.java)
             startActivity(intent)
 
         }
-
-
-
     }
 }
